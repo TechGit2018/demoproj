@@ -72,4 +72,11 @@
       </plugins>
     </pluginManagement>
   </build>
+      <distributionManagement>
+	<repository>
+			<id>demo1</id>
+			<name>demo1</name>
+			<url>http://localhost:8081/repository/demo1/</url>
+	</repository>
+  </distributionManagement>
 </project>
